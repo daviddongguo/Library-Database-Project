@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-23 10:25:46 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtERVNLVE9QOzIwMTgtMDktMjA7MDc6MTc6NTUgQU07MzE5MQ=="/>
+        <attribute name="edited" value="MTg5NTgzMDtCSDIxNC0xMDsyMDE4LTA5LTIwOzA5OjMxOjMyIEFNOzE7MjE3OA=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtERVNLVE9QOzIwMTgtMDktMjM7MTA6MjU6NDYgUE07NzszMzE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="IsInJuvenileTableFn">
+                <then>
+                    <if expression="IsActualJuvenileFn">
+                        <then>
+                            <assign variable="@expiredDate" expression="adult_member_no.ExprDate"/>
+                            <if expression="@expiredDate &gt; getdate()">
+                                <then>
+                                    <assign variable="@canLoan" expression="1"/>
+                                </then>
+                                <else>
+                                    <assign variable="@canLoan" expression="0"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <call expression="MoveJuvenilToAdult"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="IsInJuvenileTableFn">
+                <then/>
+                <else>
+                    <if expression="IsExpiredFn">
+                        <then>
+                            <assign variable="@canLoan" expression="0"/>
+                        </then>
+                        <else>
+                            <assign variable="@canLoan" expression="1"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="@canLoan = 1">
+                <then>
+                    <assign variable="@Copy_No" expression="Books.getNextCopyAvailabeFn(@ISBN)"/>
+                    <if expression="Copy_No is not null">
+                        <then>
+                            <call expression="insert into services.loan"/>
+                            <call expression="update books.copy&#13;&#10;set on_loan = 1"/>
+                            <if expression="Books.IsloanableFn(@ISBN)) = 0">
+                                <then>
+                                    <call expression="update books.Item&#13;&#10;set Loanable = 0"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="Sorray, this book is not availabe to loan" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="Sorry, The membership is expired." newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

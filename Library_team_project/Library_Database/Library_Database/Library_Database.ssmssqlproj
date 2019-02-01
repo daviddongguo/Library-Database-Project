@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Library_Database">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="BH214-10:DESKTOP\Administrator">
+          <Created>2018-09-20T08:28:44.1322689-04:00</Created>
+          <Type>SQL</Type>
+          <Server>BH214-10</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="DESKTOP:sa">
+          <Created>2018-09-19T21:56:11.5523684-04:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="_1_Query_(Mailing_List).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>_1_Query_(Mailing_List).sql</FullPath>
+        </FileNode>
+        <FileNode Name="_6_View_(copywideView).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>_6_View_(copywideView).sql</FullPath>
+        </FileNode>
+        <FileNode Name="_8_View_(onshelfView).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>_8_View_(onshelfView).sql</FullPath>
+        </FileNode>
+        <FileNode Name="000_debug.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>000_debug.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_02_03_Create_database_schemas_tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>01_02_03_Create_database_schemas_tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Define Table Constraints.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>04_Define Table Constraints.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_Insert_data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>05_Insert_data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="51_LoanServices.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>51_LoanServices.sql</FullPath>
+        </FileNode>
+        <FileNode Name="52_Services.LoanInsertDataTr.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>52_Services.LoanInsertDataTr.sql</FullPath>
+        </FileNode>
+        <FileNode Name="61_FindBooks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>61_FindBooks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="62_FindMembers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>62_FindMembers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="63_MoveTime.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>63_MoveTime.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

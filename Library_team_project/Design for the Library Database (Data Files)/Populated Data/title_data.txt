@@ -1,0 +1,50 @@
+1	Last of the Mohicans	James Fenimore Cooper	NULL
+2	The Village Watch-Tower	Kate Douglas Wiggin	NULL
+3	Self Help; Conduct & Perseverance	Samuel Smiles	NULL
+4	Songs of a Savoyard	W. S. Gilbert	NULL
+5	Fall of the House of Usher	Edgar Allen Poe	NULL
+6	The Cook's Decameron	Mrs. W. G. Water	NULL
+7	Poems	Wilfred Owen	NULL
+8	The Cherry Orchard	Anton Checkov	NULL
+9	Wayfarers	Knut Hamsun	NULL
+10	The Night-Born	Jack London	NULL
+11	Lemon	Motojirou	NULL
+12	Walking	Henry David Thoreau	NULL
+13	The Water-Babies	Charles Kingsley	NULL
+14	Improvement of Understanding	Spinoza	NULL
+15	The Dictionary of the Khazars	Milorad Pavic	NULL
+16	The First Men In The Moon	H.G. Wells	NULL
+17	Ballads of a Bohemian	Robert W. Service	NULL
+18	War and Peace	Lev Tolstoy	NULL
+19	The Phantom of the Opera	Gaston Leroux	NULL
+20	The Unbearable Lightness of Being	Milan Kundera	NULL
+21	Le Petit Prince	Antoine de Saint-Exupery	NULL
+22	The Master and Margarita	Mikhael Bulgakov	NULL
+23	De La Terre a La Lune	Jules Verne	NULL
+24	Tao Teh King	Lau-Tzu	NULL
+25	The Black Tulip	Alexandre Dumas	NULL
+26	The Adventures of Robin Hood	Howard Pyle	NULL
+27	Lady Susan	Jane Austen	NULL
+28	The Voyage of the Beagle	Charles Darwin	NULL
+29	Misalliance	George Bernard Shaw	NULL
+30	A Tale of Two Cities	Charles Dickens	NULL
+31	Oliver Twist	Charles Dickens	NULL
+32	The Call of the Wild	Jack London	NULL
+33	"The First 100,000 Prime Numbers"	Unknown	NULL
+34	The Legend of Sleepy Hollow	"Irving, Washington"	NULL
+35	The Return of Sherlock Holmes	Sir Arthur Conan Doyle	NULL
+36	The Scarlet Letter	Nathaniel Hawthorne	NULL
+37	Treasure Island	Robert Louis Stevenson	NULL
+38	Les Miserables	Victor Marie Hugo	NULL
+39	Moby Dick	Herman Melville	NULL
+40	Moll Flanders	Daniel Defoe	NULL
+41	Sense and Sensibility	Jane Austen	NULL
+42	Vanity Fair	William Makepeace Thackeray	NULL
+43	Emma	Jane Austen	NULL
+44	Adventures of Huckleberry Finn	Mark Twain	NULL
+45	Candide	Voltaire	NULL
+46	The Complete Works of William Shakespeare	William Shakespeare	NULL
+47	The Crossing	Winston Churchill	NULL
+48	History of the Decline and Fall of the Roman Empire	Edward Gibbon	NULL
+49	Julius Caesar's Commentaries on the Gallic War	Julius Caesar	NULL
+50	Frankenstein	Mary Wollstonecraft Shelley	NULL
